@@ -17,8 +17,6 @@ Building reliable AI that can **reason, retrieve evidence, use tools, verify, an
 
 </div>
 
-nistic **time-travel debugger for tool-using agents**.
-
 ---
 
 ## Featured Projects & Directions
