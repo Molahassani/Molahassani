@@ -18,46 +18,6 @@ Building reliable AI that can **reason, retrieve evidence, use tools, verify, an
 
 ---
 
-## Currently Building
-
-<table>
-<tr>
-<td width="68%" valign="top">
-
-### 🛡️ IMMUNIS-X
-
-**Portable Counterfactual Immunization for Heterogeneous LLM Agent Systems**
-
-A reliability layer that learns from agent failures, validates structural repairs, and safely transfers them across different agent architectures.
-
-```text
-observe → replay → localize → repair → validate → transfer
-```
-
-</td>
-<td width="32%" valign="top">
-
-**Status**  
-`Active development`
-
-**Focus**  
-`Agent reliability`  
-`Counterfactual replay`  
-`Safe transfer`  
-`Typed interventions`
-
-**Stack**  
-`Python` `Pydantic`  
-`LangGraph` `OpenTelemetry`  
-`Docker` `OPA/Rego`
-
-</td>
-</tr>
-</table>
-
-> First milestone: a deterministic **time-travel debugger for tool-using agents**.
-
----
 
 ## Featured Projects & Directions
 
