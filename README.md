@@ -53,23 +53,7 @@ Evaluating whether natural-language explanations are faithful, useful, and safe.
 </tr>
 </table>
 
----
 
-## Research
-
-> **How can AI systems act in high-stakes environments while remaining inspectable, evidence-grounded, and uncertainty-aware?**
-
-`Agent reliability` · `RAG & GraphRAG` · `Clinical NLP` · `Faithfulness` · `Calibration` · `Human oversight`
-
-<details>
-<summary><strong>Featured research question</strong></summary>
-<br/>
-Can large language models explain health-related predictions without producing explanations that are merely plausible?
-<br/><br/>
-Evaluation: <code>faithfulness</code> · <code>evidence alignment</code> · <code>uncertainty</code> · <code>clinical usefulness</code>
-</details>
-
----
 
 ## Agentic AI
 
