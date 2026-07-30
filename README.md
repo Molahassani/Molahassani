@@ -1,4 +1,4 @@
-[README(3).md](https://github.com/user-attachments/files/30556837/README.3.md)
+
 <div align="center">
 
 <img src="./assets/hero.svg" width="100%" alt="Mohammad Mahdi Molahassani — Medicine, Agentic AI, and Reliable Systems" />
