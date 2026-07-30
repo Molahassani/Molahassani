@@ -1,3 +1,4 @@
+[README(4).md](https://github.com/user-attachments/files/30556810/README.4.md)
 <div align="center">
 
 <img src="./assets/hero.svg" width="100%" alt="Mohammad Mahdi Molahassani — Medicine, Agentic AI, and Reliable Systems" />
@@ -11,15 +12,58 @@
 
 <br/><br/>
 
-**Medical Student · AI Systems Builder · Researcher**  
-Building reliable AI that can **reason, retrieve evidence, use tools, verify, and explain**.
+### Medical Student · AI Systems Builder · Researcher
+
+Building AI systems that can **reason, retrieve evidence, use tools, verify outcomes, expose uncertainty, and explain decisions**.
+
+<sub>Medicine × Agentic AI × Reliable Systems</sub>
 
 </div>
 
 ---
 
+## Currently Building
 
-## Featured Projects & Directions
+<table>
+<tr>
+<td width="68%" valign="top">
+
+### 🛡️ IMMUNIS-X
+
+**Portable Counterfactual Immunization for Heterogeneous LLM Agent Systems**
+
+A reliability layer that learns from agent failures, validates structural repairs, and safely transfers them across different agent architectures.
+
+```text
+observe → replay → localize → repair → validate → transfer
+```
+
+> First milestone: a deterministic **time-travel debugger for tool-using agents**.
+
+</td>
+<td width="32%" valign="top">
+
+**Status**  
+`Active development`
+
+**Focus**  
+`Agent reliability`  
+`Counterfactual replay`  
+`Safe transfer`  
+`Typed interventions`
+
+**Core stack**  
+`Python` `Pydantic`  
+`LangGraph` `OpenTelemetry`  
+`Docker` `OPA/Rego`
+
+</td>
+</tr>
+</table>
+
+---
+
+## What I Work On
 
 <table>
 <tr>
@@ -45,7 +89,7 @@ Evidence-grounded clinical AI with provenance, uncertainty, and human review.
 
 ### 🔍 Explainable Clinical AI
 
-Evaluating whether natural-language explanations are faithful, useful, and safe.
+Testing whether natural-language explanations are faithful, useful, and safe.
 
 `Research interest`
 
@@ -53,15 +97,31 @@ Evaluating whether natural-language explanations are faithful, useful, and safe.
 </tr>
 </table>
 
+---
 
+## Technology Stack
 
-## Agentic AI
+<div align="center">
+
+<img src="./assets/tech-stack.svg" width="100%" alt="Technology stack for reliable agentic AI systems" />
+
+<br/>
+
+`Python` · `FastAPI` · `LangGraph` · `Pydantic` · `PostgreSQL` · `Vector Search` · `Docker` · `Linux`
+
+`OpenTelemetry` · `MCP` · `OPA/Rego` · `Evaluation` · `GraphRAG` · `Human-in-the-loop Systems`
+
+</div>
+
+---
+
+## System Blueprint
 
 ```mermaid
 flowchart LR
     H[Human / Clinician] --> A[AI Application]
     A --> P[Plan]
-    A --> R[Retrieve]
+    A --> R[Retrieve Evidence]
     A --> T[Use Tools]
     P --> L[LLM Core]
     R --> L
@@ -80,36 +140,53 @@ flowchart LR
 
 ---
 
-## Technology Stack
+## Research Direction
+
+> **How can AI systems act in high-stakes environments while remaining inspectable, evidence-grounded, and uncertainty-aware?**
 
 <div align="center">
 
-<img src="./assets/tech-stack.svg" width="100%" alt="Technology stack architecture" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,docker,linux,git,github,vscode" alt="Core engineering stack" />
-
-<br/><br/>
-
-`LangGraph` · `Pydantic` · `OpenTelemetry` · `MCP` · `OPA/Rego` · `Vector Search`
+`Agent reliability` · `RAG & GraphRAG` · `Clinical NLP` · `Faithfulness` · `Calibration` · `Human oversight`
 
 </div>
+
+<details>
+<summary><strong>Featured research question</strong></summary>
+<br/>
+Can large language models explain health-related predictions without producing explanations that are merely plausible?
+<br/><br/>
+Evaluation: <code>faithfulness</code> · <code>evidence alignment</code> · <code>uncertainty</code> · <code>clinical usefulness</code>
+</details>
 
 ---
 
-## GitHub Activity
+## Engineering Principles
 
-<div align="center">
+<table>
+<tr>
+<td width="33%" align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Molahassani&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Molahassani&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Most used languages" />
+### Evidence First
 
-<br/>
+Prefer verifiable sources over confident-looking output.
 
-<img width="88%" src="https://github-readme-activity-graph.vercel.app/graph?username=Molahassani&theme=github-compact&hide_border=true&area=true" alt="Contribution activity graph" />
+</td>
+<td width="33%" align="center">
 
-</div>
+### Uncertainty Visible
+
+Calibrate, abstain, and escalate when confidence is not justified.
+
+</td>
+<td width="33%" align="center">
+
+### Humans in Control
+
+Design review points for consequential decisions and actions.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -117,14 +194,23 @@ flowchart LR
 
 ### Build systems, not demos.
 
-**Prefer evidence over confidence · Make uncertainty visible · Keep humans in control**
+**Reliable execution · Grounded evidence · Inspectable decisions**
 
 <br/>
 
-<a href="https://www.linkedin.com/in/mr-molahassani"><img src="https://img.shields.io/badge/Let's_build_trustworthy_AI-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/mr-molahassani"><img src="https://img.shields.io/badge/Build_trustworthy_AI-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="https://github.com/Molahassani?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_work-Repositories-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" /></a>
 
 <br/><br/>
 
-<sub>Medicine × Agentic AI × Reliable Systems</sub>
+<sub>Mohammad Mahdi Molahassani · Medicine × Agentic AI × Reliable Systems</sub>
 
 </div>
+
+<!--
+Dynamic GitHub statistics are intentionally not displayed in the main profile.
+The shared github-readme-stats Vercel endpoint can be rate-limited or return 503 errors,
+and the original project now recommends maintained successors or a GitHub Actions workflow.
+Keep the visible profile dependency-light; add generated local cards only when your profile
+has enough original public repositories to produce meaningful language statistics.
+-->
